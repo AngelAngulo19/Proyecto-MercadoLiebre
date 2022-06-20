@@ -5,10 +5,8 @@ const app = express();
 app.use('/static',express.static(__dirname + '/public'));
 
 
-let puerto = process.env.PORT || 3000;
-
-app.listen(puerto, () => {
-    console.log('Servidor corriendo en el puerto 3000' + puerto);
+app.listen( process.env.PORT || 3000, function() {
+    console.log('Servidor corriendo en el puerto 3000');
 });
 
 app.get('/', (req, res) => {
