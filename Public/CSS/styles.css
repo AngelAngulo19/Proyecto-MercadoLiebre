@@ -256,17 +256,33 @@ article div.main-article{
 #icon{
      font-size:2em;
      color: #1259c3;
+     transition: background-color 450ms;
         }
+
+#icon:hover{
+    color: #0022AA;
+}        
+
 
 #icon1{
     font-size:2em;
     color: #1259c3;
+    transition: background-color 450ms;
            }
+
+#icon1:hover{
+    color: #0022AA;
+ }
 
 #icon2{
     font-size:2em;
     color: #1259c3;
+    transition: background-color 450ms;
     }
+
+#icon2:hover{
+    color: #0022AA;
+}
 
         
 .fondo-pie{
