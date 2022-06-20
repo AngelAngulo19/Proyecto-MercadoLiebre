@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MercadoLiebre</title>
+
+    <link rel="stylesheet" href="static/CSS/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+   
+</head>
+
+<body>
+
+<header>
+    <div class="main-header">  
+        <div class="logo">
+        <img src="static/images/logo-mercado-liebre.svg" alt="Logo de Mercado Libre" >
+        </div>
+        
+        <div class="form" action="#" method="GET">
+            
+            <div >
+                <input type="text" name="Buscador" placeholder="Buscar productos, marcas y más" class="barra">
+            </div>
+
+            <div class="submit"><i class="fa fa-search"></i></div>
+        
+        </div>
+           <h3><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h3>
+    </div>
+    
+    <nav class="main-navbar">
+        <ul class="left-navbar">
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas Oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="right-navbar">
+            <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+            <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+            <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+        </ul>
+    </nav>
+   
+</header>
+
+<form action="/" method="get" class="form">
+
+       <h4 class="Titulo-formulario">Formulario de registro</h4> 
+
+        <div class="Formulario">
+            <input type="text" name="Nombre y apellido" id="nombre y apellido" placeholder="Nombre y apellido" required minlength="3" maxlength="30" class="Control-input">
+        </div>
+
+        <div class="Formulario">
+            <input type="text" name="nombre de usuario" id="nombre de usuario" placeholder="Nombre de usuario" required minlength="3" maxlength="15" class="Control-input">
+        </div>
+
+        <div class="Formulario">
+            <input type="text" name="Email" id="email" placeholder="Email" required class="Control-input">
+        </div>
+
+        <div class="Formulario">
+            <input type="date" name="fecha de Nacimiento" id="date" placeholder="Fecha de Nacimiento" required class="Control-input">
+        </div>
+
+        <div class="Formulario">
+            <input type="text" name="fecha de Nacimiento" id="date" placeholder="Domicilio" required class="Control-input">
+        </div>
+
+        <h5 class="categoria">Perfil de usuario:</h5>
+        
+        <div class="Control-input-selec">
+                       
+            <input type="radio" name="Medio de pago" value="Comprador" id="Comprador">
+            <label for="Comprador">Comprar</label>
+
+            <input type="radio"  name="Medio de pago" value="Vendedor" id="Vendedor">
+            <label for="Vendedor">Vender</label>
+
+            
+        </div>
+             
+        <h5 class="categoria">Categorías de interés:</h5> 
+        
+        <div class="Control-input-selec"> 
+                       
+            <input type="checkbox" name="Interes" value="Electro" >
+            <label for="Electro">Electro</label>
+
+            <input type="checkbox" name="Interes" value="Moda">
+            <label for="Moda">Moda</label>
+
+            <input type="checkbox" name="Interes" value="Hogar">
+            <label for="Hogar">Hogar</label>
+
+            <input type="checkbox" name="Interes" value="Jugueteria">
+            <label for="Jugueteria">Jugueteria</label>
+
+            <input type="checkbox" name="Interes" value="Vida sana">
+            <label for="Vida sana">Vida sana</label>
+
+        </div>
+
+        <div class="Formulario">
+            <h4 class="categoria">Foto de usuario:</h4>
+            <input type="file" name="foto" accept=".jpg" required class="Control-input">
+        </div>
+
+        <div class="Formulario">
+            <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required minlength="8" class="Control-input">
+       </div>
+
+        <div class="Formulario">
+            <input type="password" name="Confirmar contraseña" id="Confirmar contraseña" placeholder="Confirmar contraseña" required minlength="8" class="Control-input">
+        </div>
+
+        <button type="submit" class="boton-submit">Enviar</button>
+
+        <button type="reset" class="boton-reset">Borrar</button>
+
+
+
+
+</form>    
+
+
+
+
+<footer class="fondo-pie"> 
+
+<div class="pie">
+   
+    <div>   
+        
+        <i id="icon" class="far fa-credit-card"></i>     
+            
+            <h2><strong>Paga en efectivo</strong></h2>
+
+            <p>Con MercadoLiebreCash tenés cuotas sin 
+            interés con tarjeta o con efectivoen 
+            puntos de pago. ¡Y siempre es seguro!</p>
+
+    </div>     
+
+
+
+    <div>
+
+        <i id="icon1" class="fas fa-gift"></i>
+
+            <h2><strong>Envío gratis desde los $2.500</strong></h2>
+
+                <p>Solo por estar registrado en MercadoLiebre
+                tenés envíos gratis en miles de productos. Es
+                un beneficio de Mercado Puntos. 
+                </p>
+
+    </div>
+
+
+    <div>
+
+        <i id="icon2" class="fas fa-user-shield"></i>
+
+            <h2> <strong>Seguridad de principio a fin</strong></h2>
+
+                <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre
+                no hay nada que no puedas hacer porque estás
+                siempre protegid@. 
+                </p>
+
+    </div>
+
+
+</div>
+
+<p class="copy-right">Copyright © 1999-2000 MercadoLiebre S.R.L</p>
+
+
+
+</footer>
+
+</body>
+</html>
