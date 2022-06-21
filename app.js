@@ -6,8 +6,7 @@ app.use('/static',express.static(__dirname + '/public'));
 
 
 app.get('/', (req, res) => {
-    console.log (path.join(__dirname, './views/home.html' ));
-    res.sendFile(path.join(__dirname, './views/home.html' ));
+    clerares.sendFile(path.join(__dirname, './views/home.html' ));
 })
 
 app.get('/register', (req, res) => {
