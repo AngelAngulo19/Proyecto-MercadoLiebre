@@ -6,6 +6,7 @@ app.use('/static',express.static(__dirname + '/public'));
 
 
 app.get('/', (req, res) => {
+    console.log (path.resolve(__dirname, '/views/home.html' ));
     res.sendFile(path.resolve(__dirname, '/views/home.html' ));
 })
 
